@@ -16,17 +16,33 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./main.css" />
+    <style>
+      .border:hover{
+        border: 2px solid white;
+      }
+      .searchbutton:hover
+    {
+      background-color: #ff9914;
+    }
+    #all:hover{
+      background: rgba(197, 196, 196, 0.8);
+    }
+    </style>
     <title>Amazon.in</title>
   </head>
   <body>
     <header>
       <nav class="first">
-        <div class="box1">
-          <img src="./logo.png" alt="amazonlogo" class="amazonlogo" />
-          <div class="box12">
+        <div id="box1" >
+         
+         <div id="amy" class="border">
+
+           <img src="./logo.png" alt="amazonlogo" id="amazonlogo"  />
+         </div>
+          <div id="box12" class="border">
             <img src="./location.png" alt="location" class="location" />
             <sup>
-              <h4>Deliver.to</h4>
+              <h4 class="text">Deliver.to</h4>
               India
             </sup>
           </div>
@@ -70,7 +86,7 @@
           </select>
         </div>
         <div class="box2">
-          <div class="box21">
+          <div id="box21" class="border">
             <img src="./flag.webp" alt="flag" class="flag">
             <label for="en">EN</label>
             <!-- Because the drop down has radio type buttons in it,so I will use radio buttons inside the option -->
@@ -78,21 +94,48 @@
         <select name="dropdown" id="lang">
             </select>
           </div>
-          <div class="accounts">
+          <div id="accounts" class="border">
             <sup>
-             <h4>Hello,sign in </h4>Acoount & Lists <img src="./dropdown.png" alt="drops" id="drops"> </>
+             <h4 class="text">Hello,sign in </h4>Acoount & Lists <img src="./dropdown.png" alt="drops" id="drops"> </>
             </sup>
           </div>
-          <div class="return">
-            <sup><h4>Returns</h4><h4 class="orders">& Orders</sup>
+          <div  id="return"class="border" >
+            <sup><h4 class="text">Returns</h4><h4 class="orders">& Orders</sup>
 
           </div>
-          <span class="lastbox7">
+          <span id="lastbox7" class="border">
             <img src="./last.png" alt="cart" class="cartimage "><h4 class="cart">Cart</h4>
             
           </span>
           
           
+          
+        </div>
+      </nav>
+      <nav class="second">
+        <div class="finalbox">
+          <div id="hamburgers" class="border"> <img src="./Hamburger_icon_white.svg.png" alt="lines" class="hamburger"><h4 class="ham">All</h4>
+          </div>
+          <div class="border">
+            <a href="https://www.amazon.com"
+            ><h4>Today's Deals</h4></a>
+          </div>
+      <div class="border">
+        <a href="https://ramanpalyal07.carrd.co/" target="_blank" ><h4>Registry</h4></a>
+
+      </div>
+      <div class="border">
+        <a href="https://www.linkedin.com/in/raman-palyal-3a0578222/" target="_blank"><h4>Customer Service</h4></a>
+
+      </div>
+      <div class="border">
+
+        <a href="https://www.linkedin.com/in/raman-palyal-3a0578222/" target="_blank"><h4>Gift Cards</h4></a>
+      </div>
+      <div class="border">
+
+        <a href="https://www.instagram.com/ramanpalyal07/" target="_blank"><h4 class="sell"> Sell </h4></a>
+      </div>
           
         </div>
       </nav>
